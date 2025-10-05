@@ -8,14 +8,16 @@ import Featured from "./Components/Featured";
 
 function App() {
   // useStates
-  const [count, setCount] = useState(0);
   const [searchValue, setSearchValue] = useState("");
   const [filteredData, setFilteredData] = useState(data);
   const [featuredInfo, setFeaturedInfo] = useState({
-    name: "Harry Potter",
-    house: "Sylerin",
-    status: "Teacher",
-    photo: "../src/assets/Houses/Gryffindor/HarryPotter/Harry-Profile.png",
+    name: "Anakin Skywalker",
+    status: "Jedi",
+    rank: "Jedi Knight",
+    homeWorld: "Tattoine",
+    lightsaberColor: "Blue",
+    lightsaberForm: "Form 5: Djem So",
+    photo: "../src/assets/Jedi/Anakin_Skywalker.png",
   });
 
   // Functions
@@ -29,26 +31,31 @@ function App() {
   // Use Effects
   useEffect(() => {
     filterData(searchValue);
-    console.log(searchValue);
   }, [searchValue]);
   return (
     <>
       <div className="App_Container lato-regular">
         <Featured
           name={featuredInfo.name}
-          house={featuredInfo.house}
-          status={featuredInfo.status}
+          homeWorld={featuredInfo.homeWorld}
+          rank={featuredInfo.rank}
           photo={featuredInfo.photo}
+          lightsaberColor={featuredInfo.lightsaberColor}
+          lightsaberForm={featuredInfo.lightsaberForm}
         />
         <Search searchValue={searchValue} setSearchValue={setSearchValue} />
         <ContentWrapper>
           {filteredData.map((data) => (
             <Card
-            setFeaturedInfo={setFeaturedInfo}
+              id={data.id}
+              setFeaturedInfo={setFeaturedInfo}
               profilePic={data.picture.profile}
+              rank={data.rank}
               name={data.name}
-              house={data.house}
               status={data.status}
+              homeWorld={data.homeWorld}
+              lightsaberColor={data.lightsaberColor}
+              lightsaberForm={data.lightsaberForm}
             />
           ))}
         </ContentWrapper>

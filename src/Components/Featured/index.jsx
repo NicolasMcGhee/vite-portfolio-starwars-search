@@ -26,28 +26,23 @@ export default function Featured(props) {
         <div className="Featured_RightSide">
           {/* 1 */}
           <div>
-            <h3>APPEARANCES</h3>
-            <p>Harry Potter and the Chamber of Secrets</p>
+            <h3>Home World</h3>
+            <p>{props.homeWorld}</p>
           </div>
           {/* 2 */}
           <div>
-            <h3>HOUSE</h3>
-            <p>Slytherin</p>
+            <h3>Rank</h3>
+            <p>{props.rank}</p>
           </div>
           {/* 3 */}
           <div>
-            <h3>AFFILIATION</h3>
-            <p>Death Eaters</p>
+            <h3>Lightsaber Color</h3>
+            <p>{props.lightsaberColor}</p>
           </div>
           {/* 4 */}
           <div>
-            <h3>SKILLS</h3>
-            <p>Legilimency</p>
-          </div>
-          {/* 5 */}
-          <div>
-            <h3>HOBBIES</h3>
-            <p>Caring for Nagini</p>
+            <h3>Lightsaber Form</h3>
+            <p>{props.lightsaberForm}</p>
           </div>
         </div>
       </div>

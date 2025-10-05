@@ -1,115 +1,50 @@
 [
   {
     "id": "1",
-    "name": "Harry Potter",
-    "house": "Gryffindor",
-    "status": "7th Year",
+    "name": "Anakin Skywalker",
+    "status": "Jedi",
+    "rank": "Jedi Knight",
+    "lightsaberColor": "Blue",
+    "lightsaberForm": "Form 5: Djem So",
+    "homeWorld": "Tattooine",
     "picture": {
-      "profile": "../src/assets/Houses/Gryffindor/HarryPotter/Harry-Profile.png",
-      "gallery": [
-        "../src/assets/Houses/Gryffindor/HarryPotter/Gallery/GOF.png",
-        "../src/assets/Houses/Gryffindor/HarryPotter/Gallery/Pointing_Wand.png",
-        "../src/assets/Houses/Gryffindor/HarryPotter/Gallery/The_Gang.png"
-      ]
+      "profile": "../src/assets/Jedi/Anakin_Skywalker.png"
     }
   },
   {
     "id": "2",
-    "name": "Ronald Weasley",
-    "house": "Gryffindor",
-    "status": "7th Year",
+    "name": "Obi-wan Kenobi",
+    "status": "Jedi",
+    "rank": "Jedi Master",
+    "lightsaberColor": "Blue",
+    "lightsaberForm": "Form 3: Soresu",
+    "homeWorld": "Stewjon",
     "picture": {
-      "profile": "../src/assets/Houses/Gryffindor/RonWeasley/Ron-Weasley-Profile.jpg"
+      "profile": "../src/assets/Jedi/Obi-Wan-Kenobi.png"
     }
   },
   {
     "id": "3",
-    "name": "Hermione Granger",
-    "house": "Gryffindor",
-    "status": "7th Year",
+    "name": "Yoda",
+    "status": "Jedi",
+    "rank": "Jedi Grandmaster",
+    "lightsaberColor": "Green",
+    "lightsaberForm": "Form 4: Ataru",
+    "homeWorld": "Unknown",
     "picture": {
-      "profile": "../src/assets/Houses/Gryffindor/HermioneGranger/Granger-Profile.png"
+      "profile": "../src/assets/Jedi/Yoda.png"
     }
   },
   {
     "id": "4",
-    "name": "Albus Dumbledore",
-    "house": "Gryffindor",
-    "status": "Headmaster",
+    "name": "Mace Windu",
+    "status": "Jedi",
+    "rank": "Jedi Master",
+    "lightsaberColor": "Purple",
+    "lightsaberForm": "Form 7: Vaapad",
+    "homeWorld": "Haruun Kal",
     "picture": {
-      "profile": "../src/assets/Houses/Gryffindor/Dumbledore/Dumbledore-Profile.png"
-    }
-  },
-  {
-    "id": "5",
-    "name": "Severus Snape",
-    "house": "Slytherin",
-    "status": "Professor",
-    "picture": {
-      "profile": "../src/assets/Houses/Slytherin/Snape/Snape-Profile.png"
-    }
-  },
-  {
-    "id": "6",
-    "name": "Horuce Slughorn",
-    "house": "Slytherin",
-    "status": "Professor",
-    "picture": {
-      "profile": "../src/assets/Houses/Slytherin/Slughorn/Slughorn.png"
-    }
-  },
-  {
-    "id": "6",
-    "name": "Scarif",
-    "house": "Planet",
-    "status": "Abrion sector",
-    "picture": {
-      "profile": "../src/assets/Planets/Scarif_Space.png"
-    }
-  },
-  {
-    "id": "6",
-    "name": "Scarif",
-    "house": "Planet",
-    "status": "Abrion sector",
-    "picture": {
-      "profile": "../src/assets/Planets/Scarif_Space.png"
-    }
-  },
-  {
-    "id": "6",
-    "name": "Scarif",
-    "house": "Planet",
-    "status": "Abrion sector",
-    "picture": {
-      "profile": "../src/assets/Planets/Scarif_Space.png"
-    }
-  },
-  {
-    "id": "6",
-    "name": "Scarif",
-    "house": "Planet",
-    "status": "Abrion sector",
-    "picture": {
-      "profile": "../src/assets/Planets/Scarif_Space.png"
-    }
-  },
-  {
-    "id": "6",
-    "name": "Scarif",
-    "house": "Planet",
-    "status": "Abrion sector",
-    "picture": {
-      "profile": "../src/assets/Planets/Scarif_Space.png"
-    }
-  },
-  {
-    "id": "6",
-    "name": "Scarif",
-    "house": "Planet",
-    "status": "Abrion sector",
-    "picture": {
-      "profile": "../src/assets/Planets/Scarif_Space.png"
+      "profile": "../src/assets/Jedi/Mace_Windu.png"
     }
   }
 ]
