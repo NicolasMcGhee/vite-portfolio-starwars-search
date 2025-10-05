@@ -1,0 +1,11 @@
+.Search_Container {
+    width: 25%;
+    display: flex;
+    
+}
+
+.Search_Container input {
+    flex-grow: 1;
+    padding: 3px;
+    border-radius: 5px;
+}

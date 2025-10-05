@@ -1,0 +1,115 @@
+[
+  {
+    "id": "1",
+    "name": "Harry Potter",
+    "house": "Gryffindor",
+    "status": "7th Year",
+    "picture": {
+      "profile": "../src/assets/Houses/Gryffindor/HarryPotter/Harry-Profile.png",
+      "gallery": [
+        "../src/assets/Houses/Gryffindor/HarryPotter/Gallery/GOF.png",
+        "../src/assets/Houses/Gryffindor/HarryPotter/Gallery/Pointing_Wand.png",
+        "../src/assets/Houses/Gryffindor/HarryPotter/Gallery/The_Gang.png"
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "name": "Ronald Weasley",
+    "house": "Gryffindor",
+    "status": "7th Year",
+    "picture": {
+      "profile": "../src/assets/Houses/Gryffindor/RonWeasley/Ron-Weasley-Profile.jpg"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Hermione Granger",
+    "house": "Gryffindor",
+    "status": "7th Year",
+    "picture": {
+      "profile": "../src/assets/Houses/Gryffindor/HermioneGranger/Granger-Profile.png"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Albus Dumbledore",
+    "house": "Gryffindor",
+    "status": "Headmaster",
+    "picture": {
+      "profile": "../src/assets/Houses/Gryffindor/Dumbledore/Dumbledore-Profile.png"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Severus Snape",
+    "house": "Slytherin",
+    "status": "Professor",
+    "picture": {
+      "profile": "../src/assets/Houses/Slytherin/Snape/Snape-Profile.png"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Horuce Slughorn",
+    "house": "Slytherin",
+    "status": "Professor",
+    "picture": {
+      "profile": "../src/assets/Houses/Slytherin/Slughorn/Slughorn.png"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Scarif",
+    "house": "Planet",
+    "status": "Abrion sector",
+    "picture": {
+      "profile": "../src/assets/Planets/Scarif_Space.png"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Scarif",
+    "house": "Planet",
+    "status": "Abrion sector",
+    "picture": {
+      "profile": "../src/assets/Planets/Scarif_Space.png"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Scarif",
+    "house": "Planet",
+    "status": "Abrion sector",
+    "picture": {
+      "profile": "../src/assets/Planets/Scarif_Space.png"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Scarif",
+    "house": "Planet",
+    "status": "Abrion sector",
+    "picture": {
+      "profile": "../src/assets/Planets/Scarif_Space.png"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Scarif",
+    "house": "Planet",
+    "status": "Abrion sector",
+    "picture": {
+      "profile": "../src/assets/Planets/Scarif_Space.png"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Scarif",
+    "house": "Planet",
+    "status": "Abrion sector",
+    "picture": {
+      "profile": "../src/assets/Planets/Scarif_Space.png"
+    }
+  }
+]

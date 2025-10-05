@@ -1,0 +1,56 @@
+import React from "react";
+import "./index.css";
+
+export default function Featured(props) {
+  return (
+    <section className="Featured_Container">
+      <div className="Featured_Information">
+        {/* Left Side: Name and basic information/Images */}
+        <div className="Featured_LeftSide">
+          <h1>{props.name}</h1>
+          <img src={props.photo} alt=""  className="Featured_Image" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            aliquid cum sit voluptates eveniet reprehenderit veniam perspiciatis
+            fugiat ratione nulla eum est vero hic blanditiis voluptatibus sed
+            officia, possimus molestiae delectus quod velit tempora, ipsum
+            tenetur? Quibusdam reprehenderit itaque quidem eaque culpa nam.
+            Nesciunt, maxime consequatur non omnis facere soluta laudantium
+            adipisci distinctio. Neque blanditiis suscipit itaque est alias
+            repellendus deserunt veritatis minus dolorem voluptates eaque sequi
+            dolore laudantium, voluptatibus, voluptatum quidem, ducimus libero
+            dicta.
+          </p>
+        </div>
+        {/* Right Side: Fun Facts and various info */}
+        <div className="Featured_RightSide">
+          {/* 1 */}
+          <div>
+            <h3>APPEARANCES</h3>
+            <p>Harry Potter and the Chamber of Secrets</p>
+          </div>
+          {/* 2 */}
+          <div>
+            <h3>HOUSE</h3>
+            <p>Slytherin</p>
+          </div>
+          {/* 3 */}
+          <div>
+            <h3>AFFILIATION</h3>
+            <p>Death Eaters</p>
+          </div>
+          {/* 4 */}
+          <div>
+            <h3>SKILLS</h3>
+            <p>Legilimency</p>
+          </div>
+          {/* 5 */}
+          <div>
+            <h3>HOBBIES</h3>
+            <p>Caring for Nagini</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
