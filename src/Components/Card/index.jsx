@@ -8,11 +8,13 @@ export default function Card(props) {
       onClick={() => {
         props.setFeaturedInfo({
           name: props.name,
+          status: props.status,
           homeWorld: props.homeWorld,
           rank: props.rank,
           photo: props.profilePic,
           lightsaberColor: props.lightsaberColor,
-          lightsaberForm: props.lightsaberForm
+          lightsaberForm: props.lightsaberForm,
+          borderColor: props.borderColor
         });
       }}
       key={props.id}

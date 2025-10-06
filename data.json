@@ -9,7 +9,8 @@
     "homeWorld": "Tattooine",
     "picture": {
       "profile": "../src/assets/Jedi/Anakin_Skywalker.png"
-    }
+    },
+    "borderColor": "royalblue"
   },
   {
     "id": "2",
@@ -21,7 +22,9 @@
     "homeWorld": "Stewjon",
     "picture": {
       "profile": "../src/assets/Jedi/Obi-Wan-Kenobi.png"
-    }
+    },
+    "borderColor": "royalblue"
+
   },
   {
     "id": "3",
@@ -33,7 +36,8 @@
     "homeWorld": "Unknown",
     "picture": {
       "profile": "../src/assets/Jedi/Yoda.png"
-    }
+    },
+    "borderColor": "green"
   },
   {
     "id": "4",
@@ -45,6 +49,59 @@
     "homeWorld": "Haruun Kal",
     "picture": {
       "profile": "../src/assets/Jedi/Mace_Windu.png"
-    }
+    },
+    "borderColor": "rebeccapurple"
+  },
+  {
+    "id": "5",
+    "name": "Darth Sidious",
+    "status": "Sith",
+    "rank": "Sith Master",
+    "lightsaberColor": "Red",
+    "lightsaberForm": "All",
+    "homeWorld": "Naboo",
+    "picture": {
+      "profile": "../src/assets/Sith/Emperor_Sidious.png"
+    },
+    "borderColor": "red"
+  },
+  {
+    "id": "6",
+    "name": "Darth Maul",
+    "status": "Sith",
+    "rank": "Sith Apprentice",
+    "lightsaberColor": "Red",
+    "lightsaberForm": "Form 6: Niman",
+    "homeWorld": "Dathomir",
+    "picture": {
+      "profile": "../src/assets/Sith/Darth_Maul.png"
+    },
+    "borderColor": "red"
+  },
+  {
+    "id": "7",
+    "name": "Count Dooku",
+    "status": "Sith",
+    "rank": "Sith Apprentice",
+    "lightsaberColor": "Red",
+    "lightsaberForm": "Form 2: Makashi",
+    "homeWorld": "Serenno",
+    "picture": {
+      "profile": "../src/assets/Sith/Count Dooku.png"
+    },
+    "borderColor": "red"
+  },
+  {
+    "id": "8",
+    "name": "Darth Vader",
+    "status": "Sith",
+    "rank": "Sith Apprentice",
+    "lightsaberColor": "Red",
+    "lightsaberForm": "Form 5: Djem So",
+    "homeWorld": "Mustafar",
+    "picture": {
+      "profile": "../src/assets/Sith/Darth Vader.jpg"
+    },
+    "borderColor": "crimson"
   }
 ]

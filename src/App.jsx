@@ -18,6 +18,7 @@ function App() {
     lightsaberColor: "Blue",
     lightsaberForm: "Form 5: Djem So",
     photo: "../src/assets/Jedi/Anakin_Skywalker.png",
+    borderColor: "royalblue"
   });
 
   // Functions
@@ -37,11 +38,13 @@ function App() {
       <div className="App_Container lato-regular">
         <Featured
           name={featuredInfo.name}
+          status={featuredInfo.status}
           homeWorld={featuredInfo.homeWorld}
           rank={featuredInfo.rank}
           photo={featuredInfo.photo}
           lightsaberColor={featuredInfo.lightsaberColor}
           lightsaberForm={featuredInfo.lightsaberForm}
+          borderColor={featuredInfo.borderColor}
         />
         <Search searchValue={searchValue} setSearchValue={setSearchValue} />
         <ContentWrapper>
@@ -56,6 +59,7 @@ function App() {
               homeWorld={data.homeWorld}
               lightsaberColor={data.lightsaberColor}
               lightsaberForm={data.lightsaberForm}
+              borderColor={data.borderColor}
             />
           ))}
         </ContentWrapper>

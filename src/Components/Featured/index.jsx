@@ -23,7 +23,7 @@ export default function Featured(props) {
           </p>
         </div>
         {/* Right Side: Fun Facts and various info */}
-        <div className="Featured_RightSide">
+        <div className="Featured_RightSide" style={{backgroundColor: props.borderColor}}>
           {/* 1 */}
           <div>
             <h3>Home World</h3>
