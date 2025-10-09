@@ -48,7 +48,7 @@
     "lightsaberForm": "Form 7: Vaapad",
     "homeWorld": "Haruun Kal",
     "picture": {
-      "profile": "/src/assets/Jedi/Mace_Windu.png"
+      "profile": "/public/Jedi/Mace_Windu2.png"
     },
     "borderColor": "rebeccapurple"
   },
