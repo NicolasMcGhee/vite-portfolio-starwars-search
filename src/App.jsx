@@ -17,7 +17,7 @@ function App() {
     homeWorld: "Tattoine",
     lightsaberColor: "Blue",
     lightsaberForm: "Form 5: Djem So",
-    photo: "../src/assets/Jedi/Anakin_Skywalker.png",
+    photo: "/Jedi/Anakin_Skywalker.png",
     borderColor: "royalblue"
   });
 
