@@ -8,7 +8,7 @@
     "lightsaberForm": "Form 5: Djem So",
     "homeWorld": "Tattooine",
     "picture": {
-      "profile": "../src/assets/Jedi/Anakin_Skywalker.png"
+      "profile": "/Jedi/Anakin_Skywalker.png"
     },
     "borderColor": "royalblue"
   },
@@ -21,7 +21,7 @@
     "lightsaberForm": "Form 3: Soresu",
     "homeWorld": "Stewjon",
     "picture": {
-      "profile": "../src/assets/Jedi/Obi-Wan-Kenobi.png"
+      "profile": "/Jedi/Obi-Wan-Kenobi.png"
     },
     "borderColor": "royalblue"
 
@@ -35,7 +35,7 @@
     "lightsaberForm": "Form 4: Ataru",
     "homeWorld": "Unknown",
     "picture": {
-      "profile": "../src/assets/Jedi/Yoda.png"
+      "profile": "/Jedi/Yoda.png"
     },
     "borderColor": "green"
   },
@@ -48,7 +48,7 @@
     "lightsaberForm": "Form 7: Vaapad",
     "homeWorld": "Haruun Kal",
     "picture": {
-      "profile": "/Jedi/Mace_Windu2.png"
+      "profile": "/Jedi/Mace_Windu.png"
     },
     "borderColor": "rebeccapurple"
   },
@@ -61,7 +61,7 @@
     "lightsaberForm": "All",
     "homeWorld": "Naboo",
     "picture": {
-      "profile": "../src/assets/Sith/Emperor_Sidious.png"
+      "profile": "/Sith/Emperor_Sidious.png"
     },
     "borderColor": "red"
   },
@@ -74,7 +74,7 @@
     "lightsaberForm": "Form 6: Niman",
     "homeWorld": "Dathomir",
     "picture": {
-      "profile": "../src/assets/Sith/Darth_Maul.png"
+      "profile": "/Sith/Darth_Maul.png"
     },
     "borderColor": "red"
   },
@@ -87,7 +87,7 @@
     "lightsaberForm": "Form 2: Makashi",
     "homeWorld": "Serenno",
     "picture": {
-      "profile": "../src/assets/Sith/Count Dooku.png"
+      "profile": "/Sith/Count Dooku.png"
     },
     "borderColor": "red"
   },
@@ -100,7 +100,7 @@
     "lightsaberForm": "Form 5: Djem So",
     "homeWorld": "Mustafar",
     "picture": {
-      "profile": "../src/assets/Sith/Darth Vader.jpg"
+      "profile": "/Sith/Darth Vader.jpg"
     },
     "borderColor": "crimson"
   }
